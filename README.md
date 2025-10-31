@@ -1,6 +1,6 @@
 # Bau de Tesouros PSOF
 Este projeto é uma aplicação web utilizando o padrão MVC (Model-View-Controller) com foco em manipulação do DOM no JavaScript.
-# 💎 Plataforma Baú de Tesouros  
+# Plataforma Baú de Tesouros  
 
 ### Projeto de Software – Desenvolvimento de Sistemas  
 **Autores:** Beatriz Gabriela Barbosa e Adrielly Dantas de Oliveira  
@@ -9,7 +9,7 @@ Este projeto é uma aplicação web utilizando o padrão MVC (Model-View-Control
 
 
 
-## 🧭 1. Introdução  
+## 1. Introdução  
 
 ### 1.1 Visão Geral  
 A sociedade contemporânea enfrenta um grave desafio relacionado ao consumo excessivo e ao descarte inadequado de produtos, especialmente entre o público infantil. Brinquedos, roupas e livros são frequentemente substituídos antes de atingirem o fim de sua vida útil, resultando em acúmulo de resíduos e desperdício de recursos.  
@@ -19,7 +19,7 @@ Segundo a **Associação Brasileira de Indústria de Brinquedos (ABRINQ)**, cerc
 Diante desse cenário, o projeto **Baú de Tesouros** surge como uma proposta de **educação ambiental e incentivo à economia circular**, promovendo o reaproveitamento de itens infantis e a conscientização sustentável desde a infância.
 
 
-## 🌍 2. Descrição do Projeto e da Solução  
+## 2. Descrição do Projeto e da Solução  
 
 O **Baú de Tesouros** é um **site interativo** que possibilita a **venda, doação e troca** de brinquedos, roupas, livros e outros objetos infantis em bom estado de conservação.  
 
@@ -29,7 +29,7 @@ Além de facilitar o reaproveitamento, a plataforma possui um caráter **educati
 
 
 
-## 🧱 3. Estrutura do Site e Ferramentas Utilizadas  
+## 3. Estrutura do Site e Ferramentas Utilizadas  
 
 O sistema será desenvolvido como uma aplicação **web responsiva**, empregando a manipulação dinâmica da interface via **método DOM (Document Object Model)**.  
 
@@ -41,7 +41,7 @@ O sistema será desenvolvido como uma aplicação **web responsiva**, empregando
 - **Editor de Desenvolvimento:** Visual Studio Code  
 
 
-## ⚙️ 4. Funcionalidades Principais  
+## 4. Funcionalidades Principais  
 
 ### 4.1 Menu de Navegação  
 1. **Início:** página principal com destaques e novidades.  
@@ -59,7 +59,7 @@ O sistema será desenvolvido como uma aplicação **web responsiva**, empregando
 
 
 
-## 🧩 5. Requisitos do Sistema  
+## 5. Requisitos do Sistema  
 
 ### 5.1 Requisitos Funcionais  
 1. Cadastro, login e gerenciamento de usuários.  
@@ -80,27 +80,26 @@ O sistema será desenvolvido como uma aplicação **web responsiva**, empregando
 
 
 
-## 🎭 6. Casos de Uso  
+## 6. Casos de Uso  
 
-### 6.1 Caso de Uso – Cadastro de Usuário  
-**Ator:** Usuário Responsável (pai/mãe)  
-**Descrição:** Criação de perfil pessoal e vinculação à conta da criança.  
+- **Cadastro de Usuário:**  
+Ator: Usuário Responsável (pai/mãe)  
+Descrição:Criação de perfil pessoal e vinculação à conta da criança.  
 
-### 6.2 Caso de Uso – Cadastro de Novo Item  
-**Ator:** Usuário Responsável  
-**Descrição:** Inserção de item com fotos, descrição, tipo de transação (venda, doação ou troca) e informações de localização.  
+- **Cadastro de Novo Item:**  
+Ator: Usuário Responsável  
+Descrição: Inserção de item com fotos, descrição, tipo de transação (venda, doação ou troca) e informações de localização.  
 
-### 6.3 Caso de Uso – Confirmação de Interesse  
-**Ator:** Usuário Responsável  
-**Descrição:** O usuário manifesta interesse por um item e preenche o formulário de confirmação de troca, doação ou compra.  
+- **Confirmação de Interesse:**  
+Ator: Usuário Responsável  
+Descrição: O usuário manifesta interesse por um item e preenche o formulário de confirmação de troca, doação ou compra.  
 
-### 6.4 Caso de Uso – Problemas e Responsabilidade  
-**Descrição:**  
+- **Problemas e Responsabilidade:** 
 Em casos de **extravio ou falhas de entrega**, o **Baú de Tesouros não se responsabiliza pelo transporte ou perdas**, sendo de responsabilidade dos usuários manter contato direto com o fornecedor ou serviço de correio.  
 
 
 
-## 💰 7. Especificação de Modelo Lucrativo e Custo-Benefício  
+## 7. Especificação de Modelo Lucrativo e Custo-Benefício  
 
 O projeto adota um **modelo de impacto social** com baixo custo operacional e potencial de sustentabilidade financeira.  
 
@@ -123,7 +122,7 @@ O projeto adota um **modelo de impacto social** com baixo custo operacional e po
 
 
 
-## 🧮 8. Diagramas do Sistema   
+## 8. Diagramas do Sistema   
 
 ### 8.1 Diagrama de Fluxo  
 ```mermaid
@@ -155,7 +154,7 @@ graph TD
     CU1["Cadastro e Autenticação"]
     CU2["Publicar Item (CRUD)"]
     CU3["Buscar e Filtrar"]
-    CU4["Adicionar à Sacola"]
+
     CU5["Formulário de Interesse"]
     CU6["Proposta de Troca"]
     CU7["Doação"]
@@ -165,13 +164,12 @@ graph TD
 
   U --> CU1
   U --> CU2
-  U --> CU4
   V --> CU3
+  V --> CU4
   V --> CU5
-  V --> CU6
-  U --> CU8
-  ADM --> CU9
-  P --> CU7
+  U --> CU7
+  ADM --> CU8
+  P --> CU6
   CU5 --> CU2
   CU6 --> CU2
 
