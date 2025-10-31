@@ -3,8 +3,7 @@ Este projeto é uma aplicação web utilizando o padrão MVC (Model-View-Control
 # Plataforma Baú de Tesouros  
 
 ### Projeto de Software – Desenvolvimento de Sistemas  
-**Autores:** Beatriz Gabriela Barbosa e Adrielly Dantas de Oliveira  
-**Orientador:** Prof. Celso  
+**Membros:** Beatriz Gabriela Barbosa e Adrielly Dantas de Oliveira  
 **Instituição:** Luiz Varga – Limeira/SP  
 
 
